@@ -1,0 +1,13 @@
+:host {
+  display: flex;
+  margin: 20px 1in 1in;
+  flex-grow: 2;
+
+  .left {
+    flex: 3;
+  }
+
+  .right {
+    flex: 1;
+  }
+}
