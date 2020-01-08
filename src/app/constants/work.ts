@@ -9,7 +9,7 @@ const WORK: Work[] = [{
   description: [
     'Build website features for Walmart Labs',
     'Develop online grocery services using React with Redux',
-    'Encourage coding excellence within teams to improve site performance',
+    'Provide quality code through automated testing and uniform practices',
   ]
 }, {
   position: 'Front End Engineer',
