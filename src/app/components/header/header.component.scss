@@ -1,5 +1,7 @@
+@import '../../../variables';
+
 :host {
-  background: blue;
+  background: $blue;
   padding: .5in 1in;
   color: white;
 

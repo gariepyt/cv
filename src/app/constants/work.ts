@@ -7,7 +7,7 @@ const WORK: Work[] = [{
   city: 'Sunnyvale',
   state: 'CA',
   description: [
-    'Build website features for Walmart Labs',
+    'Build web application features for Walmart Labs',
     'Develop online grocery services using React with Redux',
     'Provide quality code through automated testing and uniform practices',
   ]
@@ -27,7 +27,7 @@ const WORK: Work[] = [{
 }, {
   position: 'UI Developer',
   company: 'Snap! Finance',
-  startDate: new Date(2018, 8, 6),
+  startDate: new Date(2016, 8, 6),
   endDate: new Date(2018, 9),
   city: 'Salt Lake City',
   state: 'UT',
