@@ -1,6 +1,69 @@
 <div class="left">
-  Left
+  <h2>Work</h2>
+  <div *ngFor="let job of work" class="item">
+    <h3>{{job.position}}</h3>
+    <h4 class="subheader">
+      <span>{{job.company}}: {{job.city}}, {{job.state}}</span>
+      <span>
+        <span>{{job.startDate | date:'MM/yyyy'}}</span>
+        <span> - </span>
+        <span *ngIf="job.endDate">{{job.endDate | date:'MM/yyyy'}}</span>
+        <span *ngIf="!job.endDate">Current</span>
+      </span>
+    </h4>
+    <ul>
+      <li *ngFor="let desc of job.description">{{desc}}</li>
+    </ul>
+  </div>
+
+  <h2>Education</h2>
+  <div *ngFor="let school of education" class="item">
+    <h3>{{school.school}}</h3>
+    <h4 class="subheader">
+      <span>{{school.degree}} in {{school.fieldOfStudy}}, GPA {{school.grade | number:'1.2'}}</span>
+      <span>
+        <span>{{school.startDate | date:'MM/yyyy'}}</span>
+        <span> - </span>
+        <span>{{school.endDate | date:'MM/yyyy'}}</span>
+      </span>
+    </h4>
+    <!-- <p *ngIf="school.awards.length">Awards: {{school.awards.join(', ')}}</p> -->
+  </div>
+
+  <h2>Volunteer</h2>
+  <div *ngFor="let vol of volunteer" class="item">
+    <h3>{{vol.position}}</h3>
+    <h4 class="subheader">
+      <span>{{vol.company}}</span>
+      <span>
+        <span>{{vol.startDate | date:'MM/yyyy'}}</span>
+        <span> - </span>
+        <span>{{vol.endDate | date:'MM/yyyy'}}</span>
+      </span>
+    </h4>
+    <p>{{vol.description}}</p>
+  </div>
+
+
 </div>
 <div class="right">
-  Right
+  <div class="content">
+    <div class="item">
+      <h2>Contact</h2>
+      <p>Web: <a href="https://tomgariepy.com" target="_blank">tomgariepy.com</a></p>
+      <p>Email: <a href="mailto:tom@tecdevs.com">tom@tecdevs.com</a></p>
+      <p>Phone: <a href="tel:5035236627">503-523-6627</a></p>
+      <p>Mail: Mountain View, CA</p>
+    </div>
+
+    <h2 class="subheader">
+      <span>Skills</span>
+      <span>Years</span>
+    </h2>
+    <p *ngFor="let skill of skills" class="subheader">
+      <span>{{skill.name}}</span>
+      <span *ngIf="skill.startYear">{{dateToYears(skill.startYear)}}</span>
+      <span *ngIf="!skill.startYear">{{skill.years}}</span>
+    </p>
+  </div>
 </div>

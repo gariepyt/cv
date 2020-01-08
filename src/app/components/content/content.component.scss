@@ -1,13 +1,40 @@
 :host {
   display: flex;
-  margin: 20px 1in 1in;
   flex-grow: 2;
 
+  h2 {
+    margin: 16px 0;
+  }
+
+  h3,
+  h4 {
+    margin: 8px 0;
+  }
+
+  .item {
+    margin-bottom: 24px;
+  }
+
   .left {
-    flex: 3;
+    margin: 10px 20px 1in 1in;
+    flex: 4;
   }
 
   .right {
-    flex: 1;
+    background-color: whitesmoke;
+    flex: 2;
+
+    .content {
+      margin: 20px 1in 1in 20px;
+    }
+
+    p {
+      margin: 8px 0;
+    }
+  }
+
+  .subheader {
+    display: flex;
+    justify-content: space-between;
   }
 }
