@@ -1,7 +1,7 @@
 <div class="left">
-  <h2>Work</h2>
+  <h3>Work</h3>
   <div *ngFor="let job of work" class="item">
-    <h3>{{job.position}}</h3>
+    <h4>{{job.position}}</h4>
     <h4 class="subheader">
       <span>{{job.company}}: {{job.city}}, {{job.state}}</span>
       <span>
@@ -16,9 +16,9 @@
     </ul>
   </div>
 
-  <h2>Education</h2>
+  <h3>Education</h3>
   <div *ngFor="let school of education" class="item">
-    <h3>{{school.school}}</h3>
+    <h4>{{school.school}}</h4>
     <h4 class="subheader">
       <span>{{school.degree}} in {{school.fieldOfStudy}}, GPA {{school.grade | number:'1.2'}}</span>
       <span>
@@ -30,9 +30,9 @@
     <!-- <p *ngIf="school.awards.length">Awards: {{school.awards.join(', ')}}</p> -->
   </div>
 
-  <h2>Volunteer</h2>
+  <h3>Volunteer</h3>
   <div *ngFor="let vol of volunteer" class="item">
-    <h3>{{vol.position}}</h3>
+    <h4>{{vol.position}}</h4>
     <h4 class="subheader">
       <span>{{vol.company}}</span>
       <span>
