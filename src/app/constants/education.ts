@@ -2,7 +2,7 @@ import Education from '../interfaces/education.interface'
 
 const EDUCATION: Education[] = [{
   school: 'Oregon State University',
-  degree: 'Bachelor of Science',
+  degree: 'Bachelor',
   fieldOfStudy: 'Computer Science',
   startDate: new Date(2015, 0, 5),
   endDate: new Date(2016, 5, 11),
@@ -10,7 +10,7 @@ const EDUCATION: Education[] = [{
   awards: ['Honor Roll']
 }, {
   school: 'Drexel University',
-  degree: 'Bachelor of Science',
+  degree: 'Bachelor',
   fieldOfStudy: 'Film & Video',
   startDate: new Date(2010, 8),
   endDate: new Date(2014, 3),

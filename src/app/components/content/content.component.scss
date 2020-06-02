@@ -3,33 +3,30 @@
   flex-grow: 2;
 
   h2 {
-    margin: 16px 0;
+    margin: 8px 0;
   }
 
   h3,
   h4 {
-    margin: 8px 0;
+    margin: 4px 0;
   }
 
   .item {
-    margin-bottom: 24px;
+    margin-bottom: 12px;
   }
 
   .left {
-    margin: 10px 20px 1in 1in;
+    margin: 10px 10px 1in 1in;
     flex: 4;
   }
 
   .right {
     background-color: whitesmoke;
     flex: 2;
-
-    .content {
-      margin: 20px 1in 1in 20px;
-    }
+    padding: 10px 1in 1in 10px;
 
     p {
-      margin: 8px 0;
+      margin: 4px 0;
     }
   }
 

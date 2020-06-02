@@ -27,7 +27,6 @@
         <span>{{school.endDate | date:'MM/yyyy'}}</span>
       </span>
     </h4>
-    <!-- <p *ngIf="school.awards.length">Awards: {{school.awards.join(', ')}}</p> -->
   </div>
 
   <h2>Volunteer</h2>
@@ -47,23 +46,21 @@
 
 </div>
 <div class="right">
-  <div class="content">
-    <div class="item">
-      <h2>Contact</h2>
-      <p>Web: <a href="https://tomgariepy.com" target="_blank">tomgariepy.com</a></p>
-      <p>Email: <a href="mailto:tom@tecdevs.com">tom@tecdevs.com</a></p>
-      <p>Phone: <a href="tel:5035236627">503-523-6627</a></p>
-      <p>Mail: Mountain View, CA</p>
-    </div>
-
-    <h2 class="subheader">
-      <span>Skills</span>
-      <span>Years</span>
-    </h2>
-    <p *ngFor="let skill of skills" class="subheader">
-      <span>{{skill.name}}</span>
-      <span *ngIf="skill.startYear">{{dateToYears(skill.startYear)}}</span>
-      <span *ngIf="!skill.startYear">{{skill.years}}</span>
-    </p>
+  <div class="item">
+    <h2>Contact</h2>
+    <!-- <p>Web: <a href="https://tomgariepy.com" target="_blank">tomgariepy.com</a></p>  -->
+    <p>Email: <a href="mailto:tom@tecdevs.com">tom@tecdevs.com</a></p>
+    <p>Phone: <a href="tel:5035236627">503-523-6627</a></p>
+    <p>Mail: Mountain View, CA</p>
   </div>
+
+  <h2 class="subheader">
+    <span>Skills</span>
+    <span>Years</span>
+  </h2>
+  <p *ngFor="let skill of skills" class="subheader">
+    <span>{{skill.name}}</span>
+    <span *ngIf="skill.startYear">{{dateToYears(skill.startYear)}}</span>
+    <span *ngIf="!skill.startYear">{{skill.years}}</span>
+  </p>
 </div>
