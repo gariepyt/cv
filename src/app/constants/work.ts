@@ -2,7 +2,7 @@ import Work from '../interfaces/work.interface';
 
 const WORK: Work[] = [{
   position: 'Senior Front End Engineer',
-  company: 'Insight Software',
+  company: 'insightsoftware',
   startDate: new Date(2020, 1, 3),
   city: 'San Mateo',
   state: 'CA',
