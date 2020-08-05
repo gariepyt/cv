@@ -4,6 +4,7 @@ const WORK: Work[] = [{
   position: 'Senior Front End Engineer',
   company: 'insightsoftware',
   startDate: new Date(2020, 1, 3),
+  endDate: new Date(2020, 5, 30),
   city: 'San Mateo',
   state: 'CA',
   description: [

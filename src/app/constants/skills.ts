@@ -1,9 +1,12 @@
-import Skill from "../interfaces/skill.interface";
+import Skill from '../interfaces/skill.interface';
 
 const SKILLS: Skill[] = [{
   name: 'JavaScript',
   // years: 7,
   startYear: 2013
+}, {
+  name: 'TypeScript',
+  startYear: 2017
 }, {
   name: 'MEAN Stack',
   years: 3
