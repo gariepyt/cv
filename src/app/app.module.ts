@@ -11,6 +11,7 @@ import { LeftContentComponent } from './components/left-content/left-content.com
 import { RightContentComponent } from './components/right-content/right-content.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { HobbiesComponent } from './components/hobbies/hobbies.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { SkillsComponent } from './components/skills/skills.component';
     LeftContentComponent,
     RightContentComponent,
     ContactComponent,
-    SkillsComponent
+    SkillsComponent,
+    HobbiesComponent
   ],
   imports: [
     BrowserModule
