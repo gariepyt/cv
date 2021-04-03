@@ -1,0 +1,10 @@
+:host {
+  padding: 10px 10px 1in 1in;
+  box-sizing: border-box;
+  flex: 4;
+
+  .left-content {
+    max-height: 100%;
+    overflow: hidden;
+  }
+}

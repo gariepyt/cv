@@ -1,0 +1,12 @@
+<h2>Volunteer</h2>
+<div *ngFor="let vol of volunteer" class="item">
+  <h3>{{ vol.position }}</h3>
+  <h4 class="subheader">
+    <span>{{ vol.company }}</span>
+    <span>
+      <span>{{ vol.startDate | date: "MM/yyyy" }}</span>
+      <span> - </span>
+      <span>{{ vol.endDate | date: "MM/yyyy" }}</span>
+    </span>
+  </h4>
+</div>

@@ -1,0 +1,16 @@
+<h2>Work</h2>
+<div *ngFor="let job of work" class="item">
+  <h3>{{ job.position }}</h3>
+  <h4 class="subheader">
+    <span>{{ job.company }}: {{ job.city }}, {{ job.state }}</span>
+    <span>
+      <span>{{ job.startDate | date: "MM/yyyy" }}</span>
+      <span> - </span>
+      <span *ngIf="job.endDate">{{ job.endDate | date: "MM/yyyy" }}</span>
+      <span *ngIf="!job.endDate">Current</span>
+    </span>
+  </h4>
+  <ul>
+    <li *ngFor="let desc of job.description">{{ desc }}</li>
+  </ul>
+</div>

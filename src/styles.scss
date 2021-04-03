@@ -1,13 +1,12 @@
-@import 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap';
-@import './variables';
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap";
+@import "./variables";
 
 html,
 body {
   background: lightgray;
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans',
-    sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 11pt;
   font-weight: lighter;
 
@@ -31,5 +30,23 @@ body {
 
   ul {
     padding-inline-start: 20px;
+  }
+
+  h2 {
+    margin: 8px 0;
+  }
+
+  h3,
+  h4 {
+    margin: 4px 0;
+  }
+
+  .item {
+    margin-bottom: 12px;
+  }
+
+  .subheader {
+    display: flex;
+    justify-content: space-between;
   }
 }
