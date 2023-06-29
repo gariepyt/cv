@@ -8,11 +8,13 @@ const WORK: Work[] = [
     city: "Palo Alto",
     state: "CA",
     description: [
-      "Built a visual interface for software security configuration",
-      "Created custom branding settings for business partners",
-      "Improve buyer experience with interactive training tools",
-      "Increase site stability with automated visual testing suite",
-      "Improve viewer retention by reducing site render time",
+      "Built a visual tool for presenting encryption software with React",
+      "Built user management system to reduce reliance on engineers",
+      "Moved data to server for faster demo creation times",
+      "Automated functional tests to ensure optimal user experience",
+      "Improved site responsiveness with visuals and code reduction",
+      "Implemented analytics to back business decisions with data",
+      "Increased company visibility with publicly sharable demos",
     ],
   },
   {
@@ -24,19 +26,19 @@ const WORK: Work[] = [
     state: "CA",
     description: [
       "Worked on Angular site for enterprise financial planning",
-      "Propose uniform site design to improve user experience",
+      "Proposed uniform site design to improve user experience",
     ],
   },
   {
     position: "Senior Frontend Engineer",
-    company: "Motion Recruitment",
+    company: "Walmart Labs",
     startDate: new Date(2019, 4),
     endDate: new Date(2020, 0, 31),
     city: "Sunnyvale",
     state: "CA",
     description: [
       "Developed online grocery service using React with Redux",
-      "Updated order fulfillment process to improve experience",
+      "Lead code migration projects across multiple teams",
     ],
   },
   {
@@ -47,8 +49,8 @@ const WORK: Work[] = [
     city: "Redwood City",
     state: "CA",
     description: [
-      "Streamlined interface for remotely flying drones",
-      "Improved site experience with responsive video streaming",
+      "Enhanced interface for remotely flying drones using Angular",
+      "Built responsive video streaming of previous flights",
     ],
   },
   {
@@ -59,7 +61,7 @@ const WORK: Work[] = [
     city: "Salt Lake City",
     state: "UT",
     description: [
-      "Increased business deals with streamlined applications",
+      "Increased business deals with streamlined applications on Angular",
       "Improved site traffic using dynamic AMP pages",
     ],
   },

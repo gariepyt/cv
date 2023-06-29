@@ -4,13 +4,13 @@
   <h4 class="subheader">
     <span>{{ job.company }}: {{ job.city }}, {{ job.state }}</span>
     <span>
-      <span>{{ job.startDate | date: "MM/yyyy" }}</span>
+      <span>{{ job.startDate | date : "MM/yyyy" }}</span>
       <span> - </span>
-      <span *ngIf="job.endDate">{{ job.endDate | date: "MM/yyyy" }}</span>
+      <span *ngIf="job.endDate">{{ job.endDate | date : "MM/yyyy" }}</span>
       <span *ngIf="!job.endDate">Current</span>
     </span>
   </h4>
-  <ul>
+  <ul class="job-desc">
     <li *ngFor="let desc of job.description">{{ desc }}</li>
   </ul>
 </div>

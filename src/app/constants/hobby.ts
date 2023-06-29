@@ -2,9 +2,19 @@ import Hobby from "../interfaces/hobby.interface";
 
 const HOBBY: Hobby[] = [
   {
-    name: "Weekly Writers Group",
+    name: "Screenwriting",
     description:
-      "I host a weekly writers group for a community of writers looking for feedback on their work. We set personal goals each week to hold ourselves accountable with one another.",
+      "I frequently connect with other writers through writing groups to improve my screenplays and editing skills.",
+  },
+  {
+    name: "Linux Tinkering",
+    description:
+      "I have been learning about running Linux on various machines through personal projects.",
+  },
+  {
+    name: "Tabletop Games",
+    description:
+      "I have a weekly gaming session with a group of friends where we play D&D and other tabletop games.",
   },
 ];
 

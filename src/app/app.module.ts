@@ -12,6 +12,7 @@ import { RightContentComponent } from './components/right-content/right-content.
 import { ContactComponent } from './components/contact/contact.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { HobbiesComponent } from './components/hobbies/hobbies.component';
+import { ResumeInfoComponent } from './components/resume-info/resume-info.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HobbiesComponent } from './components/hobbies/hobbies.component';
     RightContentComponent,
     ContactComponent,
     SkillsComponent,
-    HobbiesComponent
+    HobbiesComponent,
+    ResumeInfoComponent
   ],
   imports: [
     BrowserModule
