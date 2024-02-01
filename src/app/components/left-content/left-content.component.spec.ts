@@ -8,8 +8,8 @@ describe('LeftContentComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ LeftContentComponent ]
-    })
+    imports: [LeftContentComponent]
+})
     .compileComponents();
   }));
 
