@@ -3,17 +3,19 @@ import { ResumeInfoComponent } from "../resume-info/resume-info.component";
 import { HobbiesComponent } from "../hobbies/hobbies.component";
 import { SkillsComponent } from "../skills/skills.component";
 import { ContactComponent } from "../contact/contact.component";
+import { EducationComponent } from "../education/education.component";
 
 @Component({
-    selector: "cv-right-content",
-    templateUrl: "./right-content.component.html",
-    styleUrls: ["./right-content.component.scss"],
-    standalone: true,
-    imports: [
-        ContactComponent,
-        SkillsComponent,
-        HobbiesComponent,
-        ResumeInfoComponent,
-    ],
+  selector: "cv-right-content",
+  templateUrl: "./right-content.component.html",
+  styleUrls: ["./right-content.component.scss"],
+  standalone: true,
+  imports: [
+    ContactComponent,
+    SkillsComponent,
+    HobbiesComponent,
+    ResumeInfoComponent,
+    EducationComponent,
+  ],
 })
 export class RightContentComponent {}

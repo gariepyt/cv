@@ -2,7 +2,8 @@
 
 :host {
   background: $blue;
-  padding: 0.5in 0.8in;
+  // padding: 0.5in 0.8in 0.375in;
+  padding: 0.375in 0.6in;
   color: white;
 
   h1 {
@@ -10,4 +11,16 @@
     font-size: x-large;
     font-weight: normal;
   }
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.info-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 0.5em;
+  margin-right: 1em;
 }

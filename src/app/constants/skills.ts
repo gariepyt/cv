@@ -11,6 +11,7 @@ const SKILLS: Skill[] = [
     // years: 1,
     startYear: 2019,
   },
+  { name: "Next.js", startYear: 2024 },
   {
     name: "JavaScript",
     // years: 7,
@@ -40,7 +41,7 @@ const SKILLS: Skill[] = [
   },
   {
     name: "Bootstrap",
-    years: 5,
+    years: 4,
     // startYear: 2016,
   },
   {

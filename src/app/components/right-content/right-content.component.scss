@@ -1,12 +1,10 @@
 :host {
   background-color: whitesmoke;
-  padding: 10px 0.8in 1in 12px;
+  padding: 10px 0.6in 0.75in 12px;
   box-sizing: border-box;
   flex: 2;
-  .right-content {
-    max-height: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-  }
+  max-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }

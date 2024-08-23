@@ -1,1 +1,9 @@
 <h1>Tom Gariepy | <small>Front-End Engineer</small></h1>
+<div class="contact-info">
+  <cv-icon>mail</cv-icon>
+  <a href="mailto:tom@tecdevs.com" class="info-link">{{ info.email }}</a>
+  <cv-icon>phone</cv-icon>
+  <a [href]="'tel:' + info.phone" class="info-link">{{ info.phone | phone }}</a>
+  <cv-icon>globe</cv-icon>
+  <p class="info-link">{{ info.address }}</p>
+</div>

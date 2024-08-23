@@ -1,12 +1,6 @@
 <h2>Education</h2>
 <div *ngFor="let school of education" class="item">
   <h3>{{ school.school }}</h3>
-  <h4 class="subheader">
-    <span>{{ school.degree }} in {{ school.fieldOfStudy }}</span>
-    <span>
-      <span>{{ school.startDate | date : "MM/yyyy" }}</span>
-      <span> - </span>
-      <span>{{ school.endDate | date : "MM/yyyy" }}</span>
-    </span>
-  </h4>
+  <h4 class="subheader">{{ school.degreeMin }}: {{ school.fieldOfStudy }}</h4>
+  <!-- <h4 class="subheader">Class of {{ school.endDate | date : "yyyy" }}</h4> -->
 </div>

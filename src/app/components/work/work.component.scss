@@ -1,3 +1,14 @@
+@import "../../../variables";
+
+:host {
+  flex: 2;
+  overflow: hidden;
+}
+
 .job-desc {
   margin: 0.75em 0 1em;
+}
+
+.company-name {
+  color: darkblue;
 }
