@@ -1,12 +1,14 @@
 <h2>Volunteer</h2>
-<div *ngFor="let vol of volunteer" class="item">
+@for (vol of volunteer; track $index) {
+<div class="item">
   <h3>{{ vol.position }}</h3>
   <h4 class="subheader">
     <span>{{ vol.company }}</span>
     <span>
-      <span>{{ vol.startDate | date: "MM/yyyy" }}</span>
+      <span>{{ vol.startDate | date : "MM/yyyy" }}</span>
       <span> - </span>
-      <span>{{ vol.endDate | date: "MM/yyyy" }}</span>
+      <span>{{ vol.endDate | date : "MM/yyyy" }}</span>
     </span>
   </h4>
 </div>
+}

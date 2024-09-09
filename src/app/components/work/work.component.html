@@ -11,12 +11,17 @@
     <h3 style="margin-bottom: 0">
       <span>{{ job.startDate | date : "MM/yyyy" }}</span>
       <span> - </span>
-      <span *ngIf="job.endDate">{{ job.endDate | date : "MM/yyyy" }}</span>
-      <span *ngIf="!job.endDate">Current</span>
+      @if (job.endDate) {
+      <span>{{ job.endDate | date : "MM/yyyy" }}</span>
+      } @else {
+      <span>Current</span>
+      }
     </h3>
   </div>
   <ul class="job-desc">
-    <li *ngFor="let desc of job.description">{{ desc }}</li>
+    @for (desc of job.description; track $index) {
+    <li>{{ desc }}</li>
+    }
   </ul>
 </div>
 }

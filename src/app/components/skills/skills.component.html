@@ -2,8 +2,13 @@
   <span>Skills</span>
   <span>Years</span>
 </h2>
-<p *ngFor="let skill of skills" class="subheader">
+@for (skill of skills; track $index) {
+<p class="subheader">
   <span>{{ skill.name }}</span>
-  <span *ngIf="skill.startYear">{{ dateToYears(skill.startYear) }}</span>
-  <span *ngIf="!skill.startYear">{{ skill.years }}</span>
+  @if (skill.startYear) {
+  <span>{{ dateToYears(skill.startYear) }}</span>
+  } @else {
+  <span>{{ skill.years }}</span>
+  }
 </p>
+}
