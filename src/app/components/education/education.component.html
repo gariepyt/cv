@@ -1,6 +1,15 @@
 <h2>Education</h2>
-<div *ngFor="let school of education" class="item">
-  <h3>{{ school.school }}</h3>
-  <h4 class="subheader">{{ school.degreeMin }}: {{ school.fieldOfStudy }}</h4>
-  <!-- <h4 class="subheader">Class of {{ school.endDate | date : "yyyy" }}</h4> -->
+
+@for (school of education; track $index) {
+<div class="item" style="display: flex; justify-content: space-between">
+  <h3>
+    {{ school.degree }} of {{ school.fieldOfStudy }},
+    <span style="font-weight: 100">{{ school.school }}</span>
+  </h3>
+  <h3 style="margin-bottom: 0">
+    <span>{{ school.startDate | date : "MM/yyyy" }}</span>
+    <span> - </span>
+    <span>{{ school.endDate | date : "MM/yyyy" }}</span>
+  </h3>
 </div>
+}

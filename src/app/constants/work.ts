@@ -8,8 +8,8 @@ const WORK: Work[] = [
     city: "Palo Alto",
     state: "CA",
     description: [
-      "Increased sales by 400% with development of react based visual presentation tool to showcase encryption software.",
-      "Spearheaded creation and implementation of interactive 3D rendered demo archive as an exciting sales leave behind.",
+      "Increased sales by 400% with react based visual presentation tool to showcase encryption software.",
+      "Spearheaded creation of interactive 3D rendered demo archive as an exciting sales leave behind.",
       "Built UI features allowing sales autonomy, reducing engineering involvement by 65%.",
       "Integrated analytics to increase data driven business decisions.",
       "Reduced code vulnerabilities by 72% with upgrade to Next.js",

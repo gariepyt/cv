@@ -31,10 +31,10 @@ const SKILLS: Skill[] = [
     startYear: 2021,
   },
   { name: "React Testing Library", startYear: 2020 },
-  {
-    name: "MEAN Stack",
-    years: 3,
-  },
+  // {
+  //   name: "MEAN Stack",
+  //   years: 3,
+  // },
   {
     name: "HTML5",
     startYear: 2015,
@@ -68,14 +68,14 @@ const SKILLS: Skill[] = [
     name: "GitHub",
     startYear: 2015,
   },
-  {
-    name: "PHP",
-    years: 1,
-  },
-  {
-    name: "Wordpress",
-    years: 2,
-  },
+  // {
+  //   name: "PHP",
+  //   years: 1,
+  // },
+  // {
+  //   name: "Wordpress",
+  //   years: 2,
+  // },
 ];
 
 export default SKILLS;

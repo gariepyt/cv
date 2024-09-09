@@ -1,10 +1,7 @@
 @import "../../../variables";
 
 :host {
-  background: $blue;
-  // padding: 0.5in 0.8in 0.375in;
-  padding: 0.375in 0.6in;
-  color: white;
+  margin: 0.375in 0.6in 12px;
 
   h1 {
     margin: 0;
@@ -19,8 +16,15 @@
 }
 
 .info-link {
-  color: white;
   text-decoration: none;
-  margin-left: 0.5em;
-  margin-right: 1em;
+  margin: 0 1em 0 0.5em;
+
+  .color {
+    color: $blue;
+  }
+}
+
+.github-link {
+  width: 24px;
+  height: 24px;
 }

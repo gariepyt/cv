@@ -1,0 +1,8 @@
+<h2>Personal Interests</h2>
+<p class="hobbies-list">
+  @for (hobby of hobbies; track $index; let last = $last) {
+  <span>{{ hobby.name }}</span>
+  @if (!last) {
+  <span class="dot"></span>
+  } }
+</p>

@@ -1,9 +1,13 @@
 <h1>Tom Gariepy | <small>Front-End Engineer</small></h1>
 <div class="contact-info">
   <cv-icon>mail</cv-icon>
-  <a href="mailto:tom@tecdevs.com" class="info-link">{{ info.email }}</a>
+  <a href="mailto:tom@tecdevs.com" class="info-link color">{{ info.email }}</a>
   <cv-icon>phone</cv-icon>
-  <a [href]="'tel:' + info.phone" class="info-link">{{ info.phone | phone }}</a>
+  <a [href]="'tel:' + info.phone" class="info-link color">{{
+    info.phone | phone
+  }}</a>
+  <img src="assets/github-mark.svg" alt="github" class="github-link" />
+  <a href="https://github.com/gariepyt/cv" class="info-link color">Resume</a>
   <cv-icon>globe</cv-icon>
   <p class="info-link">{{ info.address }}</p>
 </div>
