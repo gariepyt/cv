@@ -68,6 +68,10 @@ const SKILLS: Skill[] = [
     name: "GitHub",
     startYear: 2015,
   },
+  {
+    name: "DaVinci Resolve",
+    years: 1,
+  },
   // {
   //   name: "PHP",
   //   years: 1,
