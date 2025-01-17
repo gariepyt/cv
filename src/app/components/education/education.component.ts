@@ -4,11 +4,10 @@ import Education from "src/app/interfaces/education.interface";
 import { DatePipe } from "@angular/common";
 
 @Component({
-  selector: "cv-education",
-  templateUrl: "./education.component.html",
-  styleUrls: ["./education.component.scss"],
-  standalone: true,
-  imports: [DatePipe],
+    selector: "cv-education",
+    templateUrl: "./education.component.html",
+    styleUrls: ["./education.component.scss"],
+    imports: [DatePipe]
 })
 export class EducationComponent {
   education: Education[] = EDUCATION;

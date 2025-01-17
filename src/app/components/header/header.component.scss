@@ -1,4 +1,4 @@
-@import "../../../variables";
+@use "../../../variables" as v;
 
 :host {
   margin: 0.375in 0.6in 12px;
@@ -20,7 +20,7 @@
   margin: 0 1em 0 0.5em;
 
   .color {
-    color: $blue;
+    color: v.$blue;
   }
 }
 

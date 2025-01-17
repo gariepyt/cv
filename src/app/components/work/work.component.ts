@@ -7,8 +7,8 @@ import { DatePipe } from "@angular/common";
   selector: "cv-work",
   templateUrl: "./work.component.html",
   styleUrls: ["./work.component.scss"],
-  standalone: true,
   imports: [DatePipe],
+  standalone: true,
 })
 export class WorkComponent {
   work: Work[] = WORK;
